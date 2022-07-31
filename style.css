@@ -29,7 +29,6 @@
     justify-content: center;
     max-width: 360px;
     height: 300px;
-    border: 1px solid steelblue;
     background-color: aliceblue;
     padding: 5px;
 }
@@ -50,11 +49,40 @@
     align-items: center;
     font-family: 'bangers';
     font-size: 1.1rem;
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
     border-style: none;
     margin: 5px;
     background: #fff;
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 2px black;
     box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
 }
+
+.btnTranslate {
+    font-family: 'bangers';
+    font-size: 1.1rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    background: #fff;
+    color: fuchsia;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.bottom-buttons {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(212, 0, 255);
+}
+
+.next {
+    width: 80px;
+   margin-top: 10px;
+}
+
