@@ -18,7 +18,17 @@
     font-size: 2.5rem;
     color: rgb(0, 204, 255);
     text-shadow: 1px 1px 2px black;
-    margin: 10px;
+    margin: 5px;
+}
+
+.heading-cheese {
+    display: flex;
+    justify-content: center;
+    font-family: 'bangers';
+    font-size: 1.9rem;
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 2px black;
+    margin: 5px;
 }
 
 .definition {
@@ -31,6 +41,33 @@
     height: 300px;
     background-color: aliceblue;
     padding: 5px;
+    line-height: 30px;
+}
+
+.definition-cheese {
+    font-family: 'sriracha';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 360px;
+    height: 300px;
+    background-color: aliceblue;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.definition-hit {
+    font-family: 'sriracha';
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 360px;
+    height: 300px;
+    background-color: aliceblue;
+    padding: 5px;
+    line-height: 25px;
 }
 
 .paragraph {
@@ -40,7 +77,7 @@
 .buttons {
     display: flex;
     justify-content: center;
-    margin: 10px 5px;
+    margin: 5px 5px;
 }
 
 .btn {
@@ -55,12 +92,13 @@
     border-style: none;
     margin: 5px;
     background: #fff;
-    color: rgb(0, 204, 255);
+    color: dodgerblue;
     text-shadow: 1px 1px 2px black;
     box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
 }
 
-.btnTranslate {
+.btn-translate {
+    align-items: center;
     font-family: 'bangers';
     font-size: 1.1rem;
     width: 80px;
@@ -68,9 +106,23 @@
     border-radius: 12px;
     border-style: none;
     margin-top: 20px;
-    margin-left: 0px;
     background: #fff;
-    color: fuchsia;
+    color: rgb(30, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.btn-next {
+    align-items: center;
+    font-family: 'bangers';
+    font-size: 1.1rem;
+    width: 80px;
+    height: 30px;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 20px;
+    background: #fff;
+    color: rgb(30, 255, 0);
     text-shadow: 1px 1px 2px black;
     box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
 }
@@ -78,11 +130,22 @@
 .bottom-buttons {
     display: flex;
     justify-content: space-between;
-    color: rgb(212, 0, 255);
+    color: rgb(30, 255, 0);
 }
 
-.next {
-    width: 80px;
-   margin-top: 10px;
+a {
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(30, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
 }
+
+
+
+
+
+
 
